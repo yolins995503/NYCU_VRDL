@@ -1,19 +1,20 @@
 NYCU_VRDL_HW1
 
-1. image_processing.py  
+1. image_processing.py
     Include the basic image processing functions  
 
-2. main.py  
-    Contain the dataloader , model architecture , evaluation and training.  
+2. main.py
+    Contain the dataloader , model architecture , evaluation and training.
+    
     Input : training images file , validation images file  
             Training image labels , validation images labels  
-            pretrain_model weight  
-            
+            pretrain_model weight          
     Output : CNN_model.pt  
 
 
 3. inference.py  
     Reproduce the submission file (answer.txt)  
+    
     Input : CNN_model.pt , testing_img_order.txt , classes.txt  
     Output : result.txt , answer.txt  
    
