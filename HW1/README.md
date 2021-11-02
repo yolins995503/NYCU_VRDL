@@ -4,7 +4,7 @@ NYCU_VRDL_HW1
     Include the basic image processing functions  
 
 2. main.py  
-    Contain the dataloader , model architecture , evaluation and training.
+    Contain the dataloader , model architecture , evaluation and training.  
     Input : training images file , validation images file  
             Training image labels , validation images labels  
             pretrain_model weight          
