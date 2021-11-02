@@ -1,6 +1,6 @@
 NYCU_VRDL_HW1
 
-1. image_processing.py. 
+1. image_processing.py  
     Include the basic image processing functions  
 
 2. main.py  
