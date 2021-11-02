@@ -5,7 +5,6 @@ NYCU_VRDL_HW1
 
 2. main.py
     Contain the dataloader , model architecture , evaluation and training.
-    
     Input : training images file , validation images file  
             Training image labels , validation images labels  
             pretrain_model weight          
