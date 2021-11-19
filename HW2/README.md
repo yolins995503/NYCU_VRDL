@@ -10,7 +10,8 @@ Prepare:
      
 2. Execute the (get_label.py) to obtain the training label which save  in .txt (N images for N .txt)  in labels folder
    Modify the path in (get_label.py) at line 6 and line 21  
-   Command : python get_label.py
+   Command : python get_label.py  
+   
    Input : digitStruct.mat  
    Output : txt file in labels folder  
     
@@ -40,4 +41,5 @@ Inference:
    Select the testing images file (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
               model weights (-weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
               confidence threshold (--conf 0.5)  
+              
     Output: answer.json
