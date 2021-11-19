@@ -4,6 +4,7 @@ Use the yolov5 to implement the object detection
 Step:(Prepare , Train , Inference)  
   
 Prepare:  
+
 1. Instll the environment  
    Command : pip install -r requirements.txt  
      
@@ -16,6 +17,7 @@ Prepare:
 3. Need to put the training data(images) and training data (labels) in the same folder  
   
 Train:  
+
 1. Modify the path  at line 2 , 3 , 4 and label at line 8 , 9 in (dataset.yaml). 
    path : training images file  
    
@@ -29,6 +31,7 @@ Train:
               prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt) 
                 
 Inference:  
+
 The model weight and other training data will be store int the run folder
 1. Execute the (detect.py) to obtain the answer.json
    Command :python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
