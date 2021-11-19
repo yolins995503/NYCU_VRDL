@@ -1,7 +1,7 @@
 NYCU_VRDL_HW2  
 Use the yolov5 to implement the object detection  
   
-Step:  
+Step:(Prepare , Train , Inference)  
   
 Prepare:  
 1. Instll the environment  
@@ -12,6 +12,8 @@ Prepare:
    Command : python get_label.py
    Input : digitStruct.mat  
    Output : txt file in labels folder  
+    
+3. Need to put the training data(images) and training data (labels) in the same folder  
   
 Train:  
 1. Modify the path  at line 2 , 3 , 4 and label at line 8 , 9 in (dataset.yaml). 
@@ -23,5 +25,6 @@ Train:
               batch size (--batch 16)  
               epoch (--epochs 3)  
               data (--data dataset.yam)  
-              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5s.ptx)
+              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5s.ptx) 
+                
 Inference: 
