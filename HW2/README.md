@@ -39,4 +39,5 @@ Inference:
    
    Select the testing images file (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
               model weights (-weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
-              confidence threshold (--conf 0.5)
+              confidence threshold (--conf 0.5)  
+    Output: answer.json
