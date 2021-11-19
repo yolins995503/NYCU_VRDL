@@ -32,7 +32,7 @@ Train:
                 
 Inference:  
 
-The model weight and other training data will be store int the run folder
+  The model weight and other training data will be store int the run folder
 1. Execute the (detect.py) to obtain the answer.json
    Command :python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
    --weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt --conf 0.5  
