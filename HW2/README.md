@@ -19,12 +19,21 @@ Train:
 1. Modify the path  at line 2 , 3 , 4 and label at line 8 , 9 in (dataset.yaml). 
    path : training images file  
    
-2. Excute the (train.py) to train and save the model  
-   Command : python train.py --img 640 --batch 16 --epochs 3 --data dataset.yaml --weights yolov5s.pt
+2. Exxcute the (train.py) to train and save the model  
+   Command : python train.py --img 640 --batch 16 --epochs 3 --data dataset.yaml --weights yolov5s.pt  
+   
    Select the images size (--img 640)  
               batch size (--batch 16)  
               epoch (--epochs 3)  
               data (--data dataset.yam)  
-              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5s.ptx) 
+              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt) 
                 
-Inference: 
+Inference:  
+The model weight and other training data will be store int the run folder
+1. Execute the (detect.py) to obtain the answer.json
+   Command :python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
+   --weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt --conf 0.5  
+   
+   Select the testing images file (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
+              model weights (-weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
+              confidence threshold (--conf 0.5)
