@@ -17,7 +17,7 @@ Step: Prepare Train Inference
      Command : python get_label.py  
      Input : digitStruct.mat  
      Output : training labels in labels folder
-     
+       
   4. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)  
      (line 2 , dataset root dir)  
      (line 3 , train images  , relative to 'path')   
@@ -26,7 +26,17 @@ Step: Prepare Train Inference
      (line 9 , class names)  
       
     
-  Train : 
+  Train :  
+    
+  1. Execute the (train.py) to training the model  
+     Command : python train.py --img 640 --batch 16 --epochs 3 --data dataset.yaml --weights yolov5s.pt  
+     Select the images size (--img 640)  
+                batch size (--batch 16)  
+                epochs (--epochs 3)  
+                training data (--data dataset.yaml)  
+                pretrain model weight (--weights yolov5s.pt) There are four pretrain model weight (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt)  
+     Output : model weight (best.pt , last.pt) and other training record in ( /run/train/exp )  
+  
     
   Inference : 
   
