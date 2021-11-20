@@ -46,7 +46,6 @@ Inference:
 
     Output: answer.json  
             The visualization will be stored in the /runs/detect/ folder   
-    Output: answer.json  
     
 Reference:  
 1. https://github.com/ultralytics/yolov5  
