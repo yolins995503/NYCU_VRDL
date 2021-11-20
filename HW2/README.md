@@ -15,6 +15,7 @@ Step: Prepare Train Inference
        
   3. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)  
      Command : python get_label.py  
+       
      Input : digitStruct.mat  
      Output : training labels in labels folder
        
@@ -36,9 +37,19 @@ Step: Prepare Train Inference
                 training data (--data dataset.yaml)  
                 pretrain model weight (--weights yolov5s.pt) There are four pretrain model weight (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt) 
                   
-     Output : model weight (best.pt , last.pt) and other training record in ( /run/train/exp )  
+     Output : model weight (best.pt , last.pt) and other training record in ( /run/train/exp ) folder  
   
     
   Inference : 
+    
+  1. Execute the (detect.py) to inference  
+     Command : python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
+     --weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt --conf 0.5  
+     Select the test images dir (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
+                model weight (--weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.p)  
+                threshold of confidence (--conf 0.5)  
+                  
+     Output : answer.json and visualization in ( /run/detect/exp ) folder  
+     
   
 Reference : https://github.com/ultralytics/yolov5  
