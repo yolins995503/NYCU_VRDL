@@ -13,7 +13,7 @@ Step: Prepare Train Inference
      (line 6 , training images dir , relative to 'path')  
      (line 6 , training images dir , relative to 'path')  
        
-  3. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)
+  3. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)  
      Command : python get_label.py  
      Input : digitStruct.mat  
      Output : training labels in labels folder
