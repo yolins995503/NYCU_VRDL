@@ -34,7 +34,8 @@ Step: Prepare Train Inference
                 batch size (--batch 16)  
                 epochs (--epochs 3)  
                 training data (--data dataset.yaml)  
-                pretrain model weight (--weights yolov5s.pt) There are four pretrain model weight (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt)  
+                pretrain model weight (--weights yolov5s.pt) There are four pretrain model weight (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt) 
+                  
      Output : model weight (best.pt , last.pt) and other training record in ( /run/train/exp )  
   
     
