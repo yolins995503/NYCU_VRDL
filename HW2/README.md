@@ -44,7 +44,7 @@ Inference:
               model weights (-weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
               confidence threshold (--conf 0.5)  
 
-    Output: answer.json and the visualization will be stored in the /runs/detect/ folder   
+   Output: answer.json and the visualization will be stored in the /runs/detect/ folder   
     
 Reference:  
 1. https://github.com/ultralytics/yolov5  
