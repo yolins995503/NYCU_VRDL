@@ -31,7 +31,7 @@ Train:
               data (--data dataset.yam)  
               prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt)  
   
-  Output :  The model weight and other training data will be stored in the /runs/train/ folder
+    Output :  The model weight and other training data will be stored in the /runs/train/ folder
                 
 Inference:  
 
