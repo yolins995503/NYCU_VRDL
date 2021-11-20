@@ -5,7 +5,7 @@ Step:(Prepare , Train , Inference)
   
 Prepare:  
 
-1. Instll the environment  
+1. Install the environment  
    Command : pip install -r requirements.txt  
      
 2. Execute the (get_label.py) to obtain the training label which save  in .txt (N images for N .txt)  in labels folder
