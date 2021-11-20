@@ -45,7 +45,7 @@ Inference:
               confidence threshold (--conf 0.5)  
 
     Output: answer.json  
-            The visualization will be stored in the /runs/detect/ folder   
+           The visualization will be stored in the /runs/detect/ folder   
     
 Reference:  
 1. https://github.com/ultralytics/yolov5  
