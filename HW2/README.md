@@ -29,11 +29,13 @@ Train:
               batch size (--batch 16)  
               epoch (--epochs 3)  
               data (--data dataset.yam)  
-              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt) 
+              prtrain model weight (--weights yolov5s.pt) There are four wieght that can be select (yolov5s.pt , yolov5m.pt , yolov5l.pt , yolov5x.pt)  
+  
+  Output :  The model weight and other training data will be stored in the /runs/train/ folder
                 
 Inference:  
 
-  The model weight and other training data will be store int the run folder
+ 
 1. Execute the (detect.py) to obtain the answer.json  
    Command : python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
    --weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt --conf 0.5  
@@ -41,7 +43,9 @@ Inference:
    Select the testing images file (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
               model weights (-weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
               confidence threshold (--conf 0.5)  
-              
+
+    Output: answer.json  
+            The visualization will be stored in the /runs/detect/ folder   
     Output: answer.json  
     
 Reference:  
