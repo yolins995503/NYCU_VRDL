@@ -15,7 +15,7 @@ Step: Prepare Train Inference
      Input : digitStruct.mat  
      Output : training labels in labels folder
      
-  3. Modify the (dataset.yaml) to declare the training dir , validation data and number of labels
+  3. Modify the (dataset.yaml) to declare the training dir , validation data and number of labels  
     
   Train : 
     
