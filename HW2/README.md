@@ -57,4 +57,5 @@ Step: Prepare Train Inference
        
   2. Execute the (inference.ipynb) to obtain the execution time per images       
     
+Model (best.pt) link : https://drive.google.com/file/d/1dFj4zf9DcsjIWOl2Q09XG4vuzzd2TDXo/view?usp=sharing       
 Reference : https://github.com/ultralytics/yolov5  
