@@ -22,7 +22,7 @@ Step: Prepare Train Inference
      Input : digitStruct.mat  
      Output : training labels in labels folder  
        
-  5. It is necessary to put(images) and (labels) in the same folder  
+  5. It is necessary to put (images) and (labels) in the same folder  
        
   6. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)  
      (line 2 , dataset root dir)  
