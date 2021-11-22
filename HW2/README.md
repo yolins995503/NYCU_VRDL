@@ -54,6 +54,7 @@ Step: Prepare Train Inference
                 threshold of confidence (--conf 0.5)  
                   
      Output : answer.json and visualization in ( /run/detect/exp ) folder  
-     
-  
+       
+  2. Execute the (inference.ipynb) to obtain the execution time per images       
+    
 Reference : https://github.com/ultralytics/yolov5  
