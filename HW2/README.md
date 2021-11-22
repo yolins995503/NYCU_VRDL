@@ -28,7 +28,8 @@ Step: Prepare Train Inference
      (line 4 , valid images  , relative to 'path')   
      (line 8 , number of classes)  
      (line 9 , class names)  
-      
+       
+  6. It is necessary to put(images) and (labels) in the same folder  
     
   Train :  
     
