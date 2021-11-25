@@ -55,7 +55,12 @@ Step: Prepare Train Inference
                   
      Output : answer.json and visualization in ( /run/detect/exp ) folder  
        
-  2. Execute the (inference.ipynb) to obtain the execution time per images       
-    
+  2. Execute the (inference.ipynb) to obtain the execution time per images  
+     It is necessary to upload the (reauirement.txt) , model_weight(best.pt) , testing image  
+     Execute the Step2 to install the environment (!pip install -r /content/yolov5/requirements.txt)
+     Execute the last cell of step4  (!python detect.py --source /content/test_images/test --weights /content/best.pt --conf 0.1)  
+     
+     Output : the execution time of per image will be printed  
+       
 Model (best.pt) link : https://drive.google.com/file/d/1dFj4zf9DcsjIWOl2Q09XG4vuzzd2TDXo/view?usp=sharing       
 Reference : https://github.com/ultralytics/yolov5  
