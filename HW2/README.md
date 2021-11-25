@@ -57,7 +57,7 @@ Step: Prepare Train Inference
        
   2. Execute the (inference.ipynb) to obtain the execution time per images  
      It is necessary to upload the (reauirement.txt) , model_weight(best.pt) , testing image  
-     Execute the Step2 to install the environment (!pip install -r /content/yolov5/requirements.txt)
+     Execute the Step2 to install the environment (!pip install -r /content/yolov5/requirements.txt)  
      Execute the last cell of step4  (!python detect.py --source /content/test_images/test --weights /content/best.pt --conf 0.1)  
      
      Output : the execution time of per image will be printed  
