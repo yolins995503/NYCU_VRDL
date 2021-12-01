@@ -50,7 +50,7 @@ Step: Prepare Train Inference
      Command : python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test  
      --weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt --conf 0.5  
      Select the test images dir (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)  
-                model weight (--weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.p)  
+                model weight (--weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)  
                 threshold of confidence (--conf 0.5)  
                   
      Output : answer.json and visualization in ( /run/detect/exp ) folder  
