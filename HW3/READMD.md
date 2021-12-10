@@ -1,5 +1,18 @@
 NYCU_VRDL_HW3
 
-Using the yolov5 to implement the segmentation
+Using the dectectron2 to implement the segmentation
 
 Step: Prepare Train Inference
+
+Prepare:  
+  
+1. Prepare the training data:  
+   The training folder contrain the original images and mask  
+   Train_Folder :
+     Image_name_Folder:  
+       images:  
+       masks:  
+         
+2.  
+            
+         
