@@ -1,9 +1,13 @@
 
 NYCU_VRDL_HW3
 
-Using the dectectron2 to implement the segmentation
+Using the dectectron2 to implement the segmentation  
+  
+It is convenient to execute the () for training and infernece  
+Training output: (model_final.pth)  
+Inference Ouput: (answer.json)  
 
-Step: Prepare Train Inference
+Step: 1. Prepare 2. Train 3. Inference
   
 Prepare:
 
@@ -36,7 +40,7 @@ Inference:
     Execute the (inference.py) to produce the prediction file  
     Command: python inference.py
     Input: (model_final.pth) and testing images folder
-    Output: answer.jsom
+    Output: (answer.json)  
   
 Reference:
       
