@@ -3,7 +3,7 @@ NYCU_VRDL_HW3
 
 Using the dectectron2 to implement the segmentation  
   
-It is convenient to execute the () for training and infernece  
+It is convenient to execute the (Detectron2_yolin.ipynb) for training and infernece  
 Training output: (model_final.pth)  
 Inference Ouput: (answer.json)  
 
