@@ -16,7 +16,10 @@ Prepare:
     Ex:  
     /Train_Folder/Image_name_Folder/images/001.png  
     /Train_Folder/Image_name_Folder/masks/001_mask.png  
-    
+      
+    Clone the https://github.com/jsbroks/imantics.git to install the imantics  
+    Command: pip install .  
+        
     Execute the (mask2coco.py) to obtain the traing label in COCO format
     Command: python maskcoco.py -train_folder /home/bsplab/Documents/yolin/VRDL/dataset/stages1_train
     Select the training folder path (-train_folder /home/bsplab/Documents/yolin/VRDL/dataset/stages1_train)  
@@ -47,3 +50,5 @@ Reference:
     [1] https://github.com/facebookresearch/detectron2  
       
     [2] https://github.com/cocodataset/cocoapi/tree/master/PythonAPI/pycocotools  
+
+    [3] https://github.com/jsbroks/imantics.git
