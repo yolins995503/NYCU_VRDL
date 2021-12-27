@@ -14,25 +14,25 @@ Procedure :
 
  Crop the training data into many training images by using the (label.json):  
  
- Execute the (crop_dataset.py) to crop training data into many training images  
- Command : python crop_dataset.py  
- Input : label.json * 7 , training data
- Output : training images in each class folder  
+    Execute the (crop_dataset.py) to crop training data into many training images  
+    Command : python crop_dataset.py  
+    Input : label.json * 7 , training data
+    Output : training images in each class folder  
    
  Train the classification model by training images:  
    
- Execute the () 
- Command :  
- Input : 
- Output :  
+    Execute the () 
+    Command :  
+    Input : 
+    Output :  
    
  Train the objection detection model by training images:  
  
- 1. Clone the source of yolov5  
-    Command : git clone https://github.com/ultralytics/yolov5  
+    1. Clone the source of yolov5  
+       Command : git clone https://github.com/ultralytics/yolov5  
       
- 2. Install the environment  
-    Command : pip install -r requirements.txt  
+    2. Install the environment  
+       Command : pip install -r requirements.txt  
  
 
 
