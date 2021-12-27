@@ -88,4 +88,8 @@ Predict the class of testing images:
     Input :  answer.csv  
     Output : answer.csv  
 
-
+Reference : 
+    
+    [1] https://github.com/ultralytics/yolov5  
+    [2] https://github.com/autoliuweijie/Kaggle/tree/master/NCFM/datasets  
+    [3] https://github.com/autoliuweijie/Kaggle/tree/master/NCFM/datasets  
