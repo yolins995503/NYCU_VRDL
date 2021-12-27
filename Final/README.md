@@ -23,10 +23,10 @@ Procedure :
    
  Train the classification model by training images:  
    
-    Execute the () 
-    Command :  
-    Input : 
-    Output :  
+    Execute the (train_crop.py) to implement the classification  
+    Command : python train_crop.py  
+    Input : traing images  
+    Output :  model.pt  
    
  Train the objection detection model by training images:  
      
