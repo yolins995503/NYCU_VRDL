@@ -87,6 +87,11 @@ Predict the class of testing images:
     Commond : python clip.py 
     Input :  answer.csv  
     Output : answer.csv  
+    
+Model weight:  
+  
+    Object detection model:  
+    Classificatio model:  
 
 Reference : 
     
