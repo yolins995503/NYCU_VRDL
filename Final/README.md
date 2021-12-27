@@ -84,7 +84,7 @@ Predict the class of testing images:
   
 Ensemble models:
     
-    Execute the 
+    Execute the (ensemble.ipynb) to combine the different model prediction together
       
  Clip the answer.csv:  
       
