@@ -96,5 +96,5 @@ Model weight:
 Reference : 
     
     [1] https://github.com/ultralytics/yolov5  
-    [2] https://github.com/autoliuweijie/Kaggle/tree/master/NCFM/datasets  
+    [2] https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/discussion/25428  
     [3] https://github.com/autoliuweijie/Kaggle/tree/master/NCFM/datasets  
