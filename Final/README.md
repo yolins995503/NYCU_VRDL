@@ -12,7 +12,8 @@ Procedure :
     3.  Train the objection detection model by training images  
     4.  Detect the boundary box of fishes in testing data and crop into testing images  
     5.  Predict the class of testing images  
-    6.  Clip the answer.csv  
+    6.  Ensemble models
+    7.  Clip the answer.csv  
 
  Crop the training data into many training images by using the (label.json):  
 
@@ -80,6 +81,10 @@ Predict the class of testing images:
     Command : python inference_crop.py  
     Input :  testing images , classification model weight  
     Output : answer.csv  
+  
+Ensemble models:
+    
+    Execute the 
       
  Clip the answer.csv:  
       
