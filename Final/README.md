@@ -90,8 +90,8 @@ Predict the class of testing images:
     
 Model weight:  
   
-    Object detection model:  https://drive.google.com/drive/folders/1vsUzB1L3Ta-KInFPWsIXGl5NOLkPwO_2?usp=sharing (model.pt)  
-    Classificatio model:  https://drive.google.com/drive/folders/1vsUzB1L3Ta-KInFPWsIXGl5NOLkPwO_2?usp=sharing (best.pt)  
+    Object detection model:  https://drive.google.com/drive/folders/1vsUzB1L3Ta-KInFPWsIXGl5NOLkPwO_2?usp=sharing (in classification folder)  
+    Classificatio model:  https://drive.google.com/drive/folders/1vsUzB1L3Ta-KInFPWsIXGl5NOLkPwO_2?usp=sharing (in objection detection folder)  
 
 Reference : 
     
