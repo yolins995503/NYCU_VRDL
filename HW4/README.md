@@ -12,7 +12,7 @@ git clone https://github.com/2KangHo/vdsr_pytorch.git
 Execute the main.py or run the main.sh
     
 ```
-python main.py --dataset DF2K --cuda --gpuids 0 --upscale_factor 2 --crop_size 256 --batch_size 128 --test_batch_size 32 --epochs 100
+python main.py --dataset training_hr_images --cuda --gpuids 0 --upscale_factor 2 --crop_size 256 --batch_size 128 --test_batch_size 32 --epochs 100
 ```
     
 ```
