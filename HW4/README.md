@@ -12,7 +12,7 @@ git clone https://github.com/2KangHo/vdsr_pytorch.git
 Execute the main.py or run the main.sh
     
 ```
-python main.py --dataset DF2K --cuda --gpuids 0 1 --upscale_factor 2 --crop_size 256 --batch_size 128 --test_batch_size 32 --epochs 100
+python main.py --dataset DF2K --cuda --gpuids 0 --upscale_factor 2 --crop_size 256 --batch_size 128 --test_batch_size 32 --epochs 100
 ```
     
 ```
@@ -22,7 +22,7 @@ bash main.sh
 ## 4. Inference
 Execute the run.py for single images
 ```
-> python run.py --cuda --gpuids 0 1 --scale_factor 2 --model model_epoch_100.pth --input_image test_scale2x.jpg --output_filename test_scale2x_out.jpg
+> python run.py --cuda --gpuids 0 --scale_factor 2 --model model_epoch_100.pth --input_image test_scale2x.jpg --output_filename test_scale2x_out.jpg
 ```
 Run the all images
 ```
