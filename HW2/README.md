@@ -14,6 +14,7 @@ pip install -r requirements.txt
 3. Modify the （get_label.py）to declare the (training images dir)
 
     (line 6 , training images dir , relative to 'path')
+    
     (line 6 , training images dir , relative to 'path')
 ```
 ```
@@ -27,9 +28,13 @@ pip install -r requirements.txt
 6. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)
 
     (line 2 , dataset root dir)
+    
     (line 3 , train images , relative to 'path')
+    
     (line 4 , valid images , relative to 'path')
+    
     (line 8 , number of classes)
+    
     (line 9 , class names)
 ```
 ```
@@ -47,9 +52,10 @@ There are four pretrain model weight (yolov5s.pt , yolov5m.pt , yolov5l.pt , yol
 ## Inference
 1. Execute the (detect.py) to inference
 
-    Select the test images dir (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)model weight 
+    Select the test images dir (--source /home/bsplab/Documents/yolin/VRDL_HW2/test/test)
     
-    (--weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)
+    model weight (--weights /home/bsplab/Documents/yolin/VRDL_HW2/yolov5/yolov5-master/runs/train/exp6/weights/best.pt)
+    
     threshold of confidence (--conf 0.5)
 
 ```
