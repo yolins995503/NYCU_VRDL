@@ -12,8 +12,8 @@ git clone https://github.com/ultralytics/yolov5
 pip install -r requirements.txt
 ```
 3. Modify the （get_label.py） to declare the (training images dir)
-(line 6 , training images dir , relative to 'path')
-(line 6 , training images dir , relative to 'path')
+    (line 6 , training images dir , relative to 'path')
+    (line 6 , training images dir , relative to 'path')
 ```
 ```
 4. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)
@@ -24,11 +24,11 @@ pip install -r requirements.txt
 ```
 ```
 6. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)
-(line 2 , dataset root dir)
-(line 3 , train images , relative to 'path')
-(line 4 , valid images , relative to 'path')
-(line 8 , number of classes)
-(line 9 , class names)
+    (line 2 , dataset root dir)
+    (line 3 , train images , relative to 'path')
+    (line 4 , valid images , relative to 'path')
+    (line 8 , number of classes)
+    (line 9 , class names)
 ```
 ```
 ## Train
@@ -63,6 +63,9 @@ python detect.py --source /home/bsplab/Documents/yolin/VRDL_HW2/test/test
 
 
     Execute the last cell of step4 (!python detect.py --source /content/test_images/test --weights /content/best.pt --conf 0.1)
+    
+```
+```
  
 ## Model weight link
  https://drive.google.com/file/d/1dFj4zf9DcsjIWOl2Q09XG4vuzzd2TDXo/view?usp=sharing
