@@ -11,7 +11,8 @@ git clone https://github.com/ultralytics/yolov5
 ```
 pip install -r requirements.txt
 ```
-3. Modify the （get_label.py） to declare the (training images dir)
+3. Modify the （get_label.py）to declare the (training images dir)
+
     (line 6 , training images dir , relative to 'path')
     (line 6 , training images dir , relative to 'path')
 ```
@@ -24,6 +25,7 @@ pip install -r requirements.txt
 ```
 ```
 6. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)
+
     (line 2 , dataset root dir)
     (line 3 , train images , relative to 'path')
     (line 4 , valid images , relative to 'path')
