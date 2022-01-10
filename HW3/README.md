@@ -43,7 +43,6 @@ Input: (train_correct.json)  and training images folder
 Output: (model_final.pth)  
 ```
 python train.py  
-
 ```
 
 ## Inference
