@@ -1,6 +1,6 @@
 NYCU_VRDL_HW2
 # NYCU_VRDL_HW2
-Using the yolov5 to implement the object detection
+### Using the yolov5 to implement the object detection
 
 ## Install Environment
 1. Clone the source of yolov5
@@ -10,22 +10,25 @@ git clone https://github.com/ultralytics/yolov5
 2. Install the environment
 ```
 pip install -r requirements.txt
+
 ```
-3. Modify the （get_label.py）to declare the (training images dir)
+
+## Prepare the data
+1. Modify the （get_label.py）to declare the (training images dir)
 
     (line 6 , training images dir , relative to 'path')
     
     (line 6 , training images dir , relative to 'path')
 ```
 ```
-4. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)
+2. Execute the (get_label.py) to obtain the training labels in txt (N txt for N images)
 ```
  python get_label.py
 ```
-5. It is necessary to put (images) and (labels) in the same folder
+3. It is necessary to put (images) and (labels) in the same folder
 ```
 ```
-6. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)
+4. Modify the (dataset.yaml) to declare the (training images dir) , (validation images dir) and (number of labels)
 
     (line 2 , dataset root dir)
     
