@@ -1,37 +1,58 @@
-
+NYCU_VRDL_HW4
 # NYCU_VRDL_HW4
-## 1.Install Environment
-Clone the source of VDSR
+### Inplement the Super Resolution
+## Install Environment
+Clone the source of IMDN
 ```
-git clone https://github.com/2KangHo/vdsr_pytorch.git
+git clone https://github.com/Zheng222/IMDN
 ```
-## 2.Split the dataset into train and valid
-    <NAME>/train/ ,  <NAME>/valid/
-    
-## 3. Train the model
-Execute the main.py or run the main.sh
-    
+## Prepare the data
+1. Split the data into train and valid  
 ```
-python main.py --dataset training_hr_images --cuda --gpuids 0 --upscale_factor 2 --crop_size 256 --batch_size 128 --test_batch_size 32 --epochs 100
 ```
-    
+2. Resize the orginal image into 1/3 size  
 ```
-bash main.sh
+python resize.py
 ```
 
-## 4. Inference
-Execute the run.py for single images
+3. Convert to images to npy for training  
 ```
-> python run.py --cuda --gpuids 0 --scale_factor 2 --model model_epoch_100.pth --input_image test_scale2x.jpg --output_filename test_scale2x_out.jpg
+python scripts/png2npy.py --pathFrom /path/to/DIV2K/ --pathTo /path/to/DIV2K_decoded/
 ```
-Run the all images
+4. Modify the path in DIV2k  
+(line 44 , 45 ,46)
 ```
-bash run.sh
+```
+## Train
+Run training x2 model
+```
+python train_IMDN.py --root /path/to/DIV2K_decoded/ --scale 2 --pretrained checkpoints/IMDN_x2.pth
+```
+Run training x3 model
+```
+python train_IMDN.py --root /path/to/DIV2K_decoded/ --scale 3 --pretrained checkpoints/IMDN_x3.pth
+```
+Run training x4 model
+```
+python train_IMDN.py --root /path/to/DIV2K_decoded/ --scale 4 --pretrained checkpoints/IMDN_x4.pth
 ```
 
-## 5. Model Link
+## Inference
+Run testing x2 model
+```
+python test_IMDN.py --test_lr_folder Test_Datasets/Set5_LR/x2/ --output_folder results/Set5/x2 --checkpoint checkpoints/IMDN_x2.pth --upscale_factor 2
+```
+Run testing x3 model
+```
+python test_IMDN.py --test_lr_folder Test_Datasets/Set5_LR/x2/ --output_folder results/Set5/x2 --checkpoint checkpoints/IMDN_x2.pth --upscale_factor 3
+```
+Run testing x4 model
+```
+python test_IMDN.py --test_lr_folder Test_Datasets/Set5_LR/x2/ --output_folder results/Set5/x2 --checkpoint checkpoints/IMDN_x2.pth --upscale_factor 4
+```
+## 5. Model weight link
 https://drive.google.com/drive/folders/1QgEya5EyYnIUVBgNg5U7oog856U39_Bx?usp=sharing
 
 ## 6. Reference
-[1] https://github.com/2KangHo/vdsr_pytorch
+[1] https://github.com/Zheng222/IMDN
 
